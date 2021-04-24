@@ -258,6 +258,10 @@ nav a:hover {
 }
 
 @media screen and (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+
   .container {
     max-width: 960px;
   }
@@ -295,4 +299,7 @@ nav a:hover {
 
     text-align: center;
   }
+}
+
+@media screen and (min-width: 768px) {
 }
